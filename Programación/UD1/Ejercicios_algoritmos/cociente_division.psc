@@ -15,13 +15,7 @@ Algoritmo cociente_division
 		Leer Dividendo
 	Fin Mientras
 	
-	resto = Dividendo/Divisor
-	
-	Si resto = 0 Entonces
-		Escribir "La division de ",Dividendo," entre ",Divisor," es ",Dividendo/Divisor
-	SiNo
-		Escribir "La division de ",Dividendo," entre ",Divisor," es ",Dividendo/Divisor
-		Escribir "Y de resto ",resto
-	Fin Si
+	Escribir "La division de ",Dividendo," entre ",Divisor," es ",Dividendo/Divisor
+
 	
 FinAlgoritmo
