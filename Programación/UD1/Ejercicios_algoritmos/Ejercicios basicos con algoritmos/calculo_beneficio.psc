@@ -1,4 +1,7 @@
 Algoritmo calculo_beneficio
+	
+	//Definimso las variables que necesitamos
+	
 	Definir porcentaje como Real
 	Definir pvp_con_aumento Como Real
 	Definir pvp_sin_aumento Como Real
@@ -8,6 +11,8 @@ Algoritmo calculo_beneficio
 	
 	Escribir "Dime el precio del producto: "
 	Leer pvp_sin_aumento
+	
+	//Calculamos el precio del producto aumentado.
 	
 	porcentaje = (porcentaje/100)+1
 	

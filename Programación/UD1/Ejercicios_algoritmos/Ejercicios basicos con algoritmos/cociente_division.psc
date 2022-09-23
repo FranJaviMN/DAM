@@ -10,9 +10,9 @@ Algoritmo cociente_division
 	Escribir "Dime el divisor de la division: "
 	Leer Divisor
 	
-	Mientras Dividendo <= 0 Hacer
-		Escribir "El dividendo no puede ser 0 o menos que 0, introduzca un numero valido: "
-		Leer Dividendo
+	Mientras Divisor = 0 Hacer
+		Escribir "El dividendo no puede ser 0, introduzca un numero valido: "
+		Leer Divisor
 	Fin Mientras
 	
 	Escribir "La division de ",Dividendo," entre ",Divisor," es ",Dividendo/Divisor

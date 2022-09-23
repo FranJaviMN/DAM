@@ -3,6 +3,8 @@ Algoritmo convertir_peseta_euro
 	Definir pesetas Como Real
 	Definir valor_euro Como Real
 	
+	//Buscamos el valor del euro en pesetas.
+	
 	valor_euro = 0.006
 	
 	//Ejecutamos la multiplicación necesario
