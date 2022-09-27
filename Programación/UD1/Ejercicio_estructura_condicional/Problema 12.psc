@@ -1,4 +1,6 @@
 Algoritmo captacion
+
+	//Definimos las variables que necesitamos, en este caso solo 3
 	
 	Definir num_preguntas_acertadas Como Entero
 	Definir num_preguntas Como Entero
@@ -9,11 +11,15 @@ Algoritmo captacion
 	
 	Escribir "Dime el numero de preguntas que ha acertado: "
 	Leer num_preguntas_acertadas
+
+	//Sacamos el porcentaje de acierto con los valores que nos proporciona el usuario.
 	
 	porcentaje = (num_preguntas_acertadas*100)/num_preguntas
 	
+	//Generamos la condicion para ver en que nivel esta el usuario.
+
 	si porcentaje >= 90 Entonces
-		Escribir "Nivel máximo"
+		Escribir "Nivel mï¿½ximo"
 	SiNo
 		Si porcentaje >= 75 y porcentaje < 90 Entonces
 			Escribir "Nivel medio"

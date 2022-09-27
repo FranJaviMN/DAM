@@ -1,9 +1,13 @@
 Algoritmo numero_3_cifras
+
+	//Definimos las variables, en este caso solo 1
 	
 	Definir numero_cifras Como Entero
 	
 	Escribir "Dime un numero positivo: "
 	Leer numero_cifras
+
+	//Creamos la condición donde vamos a ver la cantidad de cifras que tiene el numero introducido.
 	
 	Si numero_cifras == 0 y numero_cifras <=9 Entonces
 		Escribir "El numero tiene 1 cifra"
