@@ -2,6 +2,8 @@
 
 void main(){
 
+    //Declaramos las variables necesarias, en este caso 6
+
     float valor_a;
     float valor_b;
     float valor_c;
@@ -10,6 +12,8 @@ void main(){
     float valor_x;
 
     float ecuacion_grado_tres;
+
+    //Pedimos los datos por pantalla
 
     printf("Dime el valor del coeficiente de a: ");
     scanf("%f",&valor_a);
@@ -31,7 +35,11 @@ void main(){
     scanf("%f",&valor_x);
     fflush(stdin);
 
+    //Realizamos el calculo de la ecuacion de grado 3
+
     ecuacion_grado_tres = valor_a*(valor_x*valor_x*valor_x)+valor_b*(valor_x*valor_x)+valor_c*valor_x+valor_d;
+
+    //Mostramos por pantalla
 
     printf("El valor de la ecuación de tercer grado es de :%.2f",ecuacion_grado_tres);
 
