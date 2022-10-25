@@ -47,8 +47,11 @@ void main(){
     ver_negativo = calcular_exponente_negativo(exponente);
 
     if (ver_negativo == 1){
-
         
+        exponente = -exponente;
+
+        numero_elevado = calcular_potencia(base, exponente);
+        printf("El numero %.1f elevado a %i es 1/%.1f",base,exponente,numero_elevado);
 
     }else{
 
